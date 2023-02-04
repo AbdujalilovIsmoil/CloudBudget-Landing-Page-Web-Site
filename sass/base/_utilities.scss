@@ -1,6 +1,37 @@
 .container {
-  padding: 0 20px;
+  padding: 0 160px;
   margin: 0 auto;
   max-width: 1440px;
 }
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    padding: 0 100px !important;
+    margin: 0 auto;
+    max-width: 1440px !important;
+  }
+}
+
+@media only screen and (max-width: 725px) {
+  .container {
+    padding: 0 60px !important;
+    margin: 0 auto;
+    max-width: 1440px !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 0 30px !important;
+    margin: 0 auto;
+    max-width: 1440px !important;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .container {
+    padding: 0 15px !important;
+    margin: 0 auto;
+    max-width: 1440px !important;
+  }
+}
+
 

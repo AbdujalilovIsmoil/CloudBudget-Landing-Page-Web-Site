@@ -1,0 +1,35 @@
+.nav {
+  &-intro {
+
+    &__text {
+      font-family: 'Lato', sans-serif;
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+
+  &-list {
+    &-item {
+      &__link {
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+
+        &:hover {
+          opacity: .7;
+        }
+      }
+    }
+  }
+
+  .btn-outline-light {
+    &:hover {
+      opacity: .7;
+    }
+  }
+
+  .fa-bars{
+    cursor: pointer;
+  }
+}

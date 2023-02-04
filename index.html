@@ -1,31 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <!-- ****GLOBAL META TAGS**** -->
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- ****CDNJS LIBRARIES**** -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- ****SITE META TAGS**** -->
-  <meta name="author" content="Abdujalilov Ismoil" />
-  <meta name="description" content="150 words" />
-  <meta name="og:title" content="Site sarlavhasi" />
-  <meta name="og:description" content="Site haqida malumot" />
-  <meta name="og:image" content="Site rasmi" />
-  <meta name="og:site_name" content="Site nomi" />
-  <!-- ****MAIN CSS**** -->
-  <link rel="stylesheet" href="./css/main.css" />
-  <title>Site nomi</title>
-</head>
-
-<body>
-  <!-- ****JAVASCRIPT LINKS**** -->
-  <script src="./js/utilits.js"></script>
-  <script src="./js/index.js"></script>
-</body>
-
+  <head>
+    <!-- ****GLOBAL META TAGS**** -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ****CDNJS LIBRARIES**** -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- ****SITE META TAGS**** -->
+    <meta name="author" content="Abdujalilov Ismoil" />
+    <meta name="description" content="150 words" />
+    <meta name="og:title" content="CloudBudget" />
+    <meta name="og:description" content="Site haqida malumot" />
+    <meta name="og:image" content="Site rasmi" />
+    <meta name="og:site_name" content="CloudBudget" />
+    <!-- ****GOOGLE FONTS**** -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,800&family=Heebo:wght@400;700;900&family=Montserrat:wght@400;500&family=Mulish:wght@400;500;800&family=Nunito+Sans:wght@400;600;800&family=Poppins:ital,wght@0,400;0,600;1,400&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ****MDB BOOTSTRAP**** -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <!-- ****MAIN CSS**** -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>CloudBudget</title>
+  </head>
+  <body>
+    <section class="section-bg">
+      <header class="header">
+        <div class="container">
+          <nav
+            class="nav d-flex justify-content-between align-items-center py-5"
+          >
+            <a
+              href="./index.html"
+              class="nav-intro d-flex align-item-center gap-2"
+            >
+              <i class="fas fa-cloud text-light fs-5 pt-2"></i>
+              <h5 class="text-light nav-intro__text pt-2 text-uppercase">
+                CloudBudget
+              </h5>
+            </a>
+            <ul
+              class="nav-list d-flex align-items-center justify-content-center gap-3 d-xxl-flex d-xl-flex d-lg-none d-md-none d-sm-none d-none"
+            >
+              <li class="nav-list-item pt-3">
+                <a href="#" class="nav-list-item__link text-light"> ОБЗОР </a>
+              </li>
+              <li class="nav-list-item pt-3">
+                <a href="#" class="nav-list-item__link text-light">
+                  ОСОБЕННОСТИ
+                </a>
+              </li>
+              <li class="nav-list-item pt-3">
+                <a href="#" class="nav-list-item__link text-light">
+                  ТЕХНОЛОГИЯ
+                </a>
+              </li>
+              <li class="nav-list-item pt-3">
+                <a href="#" class="nav-list-item__link text-light"> КОНТАКТЫ</a>
+              </li>
+              <li class="nav-list-item pt-3">
+                <a href="#" class="nav-list-item__link text-light"> ВОЙТИ</a>
+              </li>
+            </ul>
+            <button
+              class="btn btn-outline-light d-xxl-block d-xl-block d-lg-block d-md-block d-sm-none d-none"
+            >
+              ВХОД
+            </button>
+            <i
+              class="fa fa-bars fs-3 text-light d-xxl-none d-xl-none d-lg-none d-md-none d-sm-block d-block"
+            ></i>
+          </nav>
+        </div>
+      </header>
+      <main class="main">
+        <div class="container">
+          <div class="main-content d-flex flex-column align-items-center w-100 text-center">
+            <h1 class="main-content__title text-light text-uppercase">
+              CloudBudget
+            </h1>
+            <p class="main-content__text text-light fs-5 mt-4">
+              Управление бюджетом в для всех. Всего 69,95 € в месяц после
+              7-дневной пробной версии за 4,99 €
+            </p>
+            <button class="btn bg-light text-danger shadow-sm py-3 mt-4">
+              ПОПРОБОВАТЬ
+            </button>
+          </div>
+        </div>
+      </main>
+    </section>
+    <!-- ****MDB BOOTSTRAP SCRIPT LINKS**** -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"
+    ></script>
+    <!-- ****JAVASCRIPT LINKS**** -->
+    <script src="./js/utilits.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
 </html>
