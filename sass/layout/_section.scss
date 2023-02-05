@@ -16,16 +16,53 @@
     &-container {
       &-box {
         &-content {
+          max-width: 445px;
+
           &__title {
             font-size: 36px;
             line-height: 42px;
-            max-width: 445px;
           }
 
           &__text {
             font-size: 14px;
             line-height: 140%;
-            max-width: 445px;
+          }
+        }
+      }
+    }
+  }
+
+  &-card {
+    &__title {
+      margin: {
+        top: 95px;
+        bottom: 65px;
+      }
+    }
+
+    &-container {
+      &-box {
+        max-width: 375px;
+        margin: 0 auto;
+
+        &-content {
+          max-width: 295px;
+          margin: 0 auto;
+          position: relative;
+          top: -15%;
+
+          &__title {
+            font-size: 18px;
+            max-width: 230px;
+            margin: 0 auto;
+          }
+
+          &__text {
+            font-size: 12px;
+          }
+
+          &__link {
+            font-size: 12px !important;
           }
         }
       }
@@ -38,6 +75,42 @@
     &-budget {
       margin: {
         top: 50px;
+      }
+    }
+
+    &-card {
+      margin: 0 auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .section {
+    &-budget {
+      &-container {
+        justify-content: center !important;
+        text-align: center;
+
+        &-box {
+          &-content {
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+
+    &-card {
+      &__title {
+        margin: 35px 0;
+
+      }
+
+      &-container {
+        &-box {
+          &-content {
+            top: -25%;
+          }
+        }
       }
     }
   }
@@ -62,7 +135,7 @@
 }
 
 @media only screen and (max-width: 760px) {
-  .section-bg{
+  .section-bg {
     min-height: 90vh;
   }
 }

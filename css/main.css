@@ -150,20 +150,64 @@ a {
 .section-budget {
   margin-top: 95px;
 }
+.section-budget-container-box-content {
+  max-width: 445px;
+}
 .section-budget-container-box-content__title {
   font-size: 36px;
   line-height: 42px;
-  max-width: 445px;
 }
 .section-budget-container-box-content__text {
   font-size: 14px;
   line-height: 140%;
-  max-width: 445px;
+}
+.section-card__title {
+  margin-top: 95px;
+  margin-bottom: 65px;
+}
+.section-card-container-box {
+  max-width: 375px;
+  margin: 0 auto;
+}
+.section-card-container-box-content {
+  max-width: 295px;
+  margin: 0 auto;
+  position: relative;
+  top: -15%;
+}
+.section-card-container-box-content__title {
+  font-size: 18px;
+  max-width: 230px;
+  margin: 0 auto;
+}
+.section-card-container-box-content__text {
+  font-size: 12px;
+}
+.section-card-container-box-content__link {
+  font-size: 12px !important;
 }
 
 @media only screen and (max-width: 1200px) {
   .section-budget {
     margin-top: 50px;
+  }
+  .section-card {
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .section-budget-container {
+    justify-content: center !important;
+    text-align: center;
+  }
+  .section-budget-container-box-content {
+    margin: 0 auto;
+  }
+  .section-card__title {
+    margin: 35px 0;
+  }
+  .section-card-container-box-content {
+    top: -25%;
   }
 }
 @media only screen and (max-width: 1140px) {
