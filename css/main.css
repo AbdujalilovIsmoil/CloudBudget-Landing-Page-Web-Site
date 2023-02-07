@@ -71,6 +71,7 @@ a {
 .navbars {
   background-image: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
   position: fixed;
+  z-index: 1;
   width: 100%;
   transition: all 0.4s linear;
   -webkit-transition: all 0.4s linear;
@@ -82,6 +83,9 @@ a {
   -moz-transform: translateY(-100%);
   -ms-transform: translateY(-100%);
   -o-transform: translateY(-100%);
+}
+.navbars-list {
+  margin-right: 40px;
 }
 .navbars.active {
   transform: translateY(0);
@@ -100,7 +104,7 @@ a {
   min-height: 100vh;
 }
 .navbars .wrapper .btn {
-  margin-left: 35px;
+  margin-left: 0;
 }
 .navbars .fa-times {
   position: absolute;

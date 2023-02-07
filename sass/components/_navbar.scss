@@ -1,6 +1,7 @@
 .navbars {
   background-image: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
   position: fixed;
+  z-index: 1;
   width: 100%;
   transition: all .4s linear;
   -webkit-transition: all .4s linear;
@@ -12,7 +13,11 @@
   -moz-transform: translateY(-100%);
   -ms-transform: translateY(-100%);
   -o-transform: translateY(-100%);
-
+  &-list {
+    margin: {
+      right: 40px;
+    }
+  }
   &.active {
     transform: translateY(0);
     -webkit-transform: translateY(0);
@@ -32,7 +37,7 @@
 
     .btn {
       margin: {
-        left: 35px;
+        left: 0;
       }
     }
   }
