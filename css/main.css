@@ -290,10 +290,10 @@ a {
 }
 @media only screen and (max-width: 767px) {
   .section-technology {
-    padding-bottom: 110px;
+    padding-bottom: 30px;
   }
   .section-technology-container-box {
-    margin-top: 100px;
+    margin-top: 135px;
   }
   .section-technology-container-box:nth-child(1) {
     margin-top: 0;
