@@ -256,6 +256,7 @@ a {
   margin-top: 25px;
   background-color: #ED4C5C;
   padding-top: 95px;
+  padding-bottom: 95px;
 }
 .section-economic-container-box {
   max-width: 445px;
@@ -275,6 +276,41 @@ a {
 .section-economic-container-box-icons__play, .section-economic-container-box-icons__alpha {
   cursor: pointer;
 }
+.section-contact {
+  margin-top: 140px;
+}
+.section-contact-container-box__title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+}
+.section-contact-container-box__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: justify;
+  max-width: 435px;
+  margin-top: 65px;
+}
+.section-contact-container-box-form__input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(19, 39, 67, 0.5);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+.section-contact-container-box-form .btn {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-right: 40px;
+  padding-left: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
 
 @media only screen and (max-width: 1200px) {
   .section-budget {
@@ -285,6 +321,9 @@ a {
   }
 }
 @media only screen and (max-width: 1199px) {
+  .section:nth-child(3) {
+    padding-bottom: 0;
+  }
   .section-budget-container {
     justify-content: center !important;
     text-align: center;
@@ -297,6 +336,9 @@ a {
   }
   .section-card-container-box-content {
     top: -25%;
+  }
+  .section-technology__title {
+    margin-top: 50px;
   }
   .section-technology-container-box:nth-child(3) {
     margin-top: 100px;
@@ -312,6 +354,15 @@ a {
   }
   .section-economic-container-box__text {
     text-align: center;
+  }
+  .section-contact {
+    margin-top: 50px;
+  }
+  .section-contact-container-box__text {
+    margin-top: 25px;
+  }
+  .section-contact-container-box-form {
+    margin-top: 25px;
   }
 }
 @media only screen and (max-width: 1140px) {

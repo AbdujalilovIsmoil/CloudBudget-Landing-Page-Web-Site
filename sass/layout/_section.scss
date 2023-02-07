@@ -187,6 +187,7 @@
 
     padding: {
       top: 95px;
+      bottom: 95px;
     }
 
     &-container {
@@ -220,6 +221,63 @@
       }
     }
   }
+
+  &-contact {
+    margin: {
+      top: 140px;
+    }
+
+    &-container {
+      &-box {
+        &__title {
+          font-weight: 500;
+          font-size: 36px;
+          line-height: 42px;
+        }
+
+        &__text {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 140%;
+          text-align: justify;
+          max-width: 435px;
+
+          margin: {
+            top: 65px;
+          }
+        }
+
+        &-form {
+          &__input {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: rgba(19, 39, 67, 0.5);
+
+            padding: {
+              top: 20px;
+              bottom: 20px;
+              left: 30px;
+            }
+          }
+
+          .btn {
+            padding: {
+              top: 17px;
+              bottom: 17px;
+              right: 40px;
+              left: 40px;
+            }
+
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -238,6 +296,12 @@
 
 @media only screen and (max-width: 1199px) {
   .section {
+    &:nth-child(3) {
+      padding: {
+        bottom: 0;
+      }
+    }
+
     &-budget {
       &-container {
         justify-content: center !important;
@@ -267,6 +331,12 @@
     }
 
     &-technology {
+      &__title {
+        margin: {
+          top: 50px;
+        }
+      }
+
       &-container {
         &-box {
           &:nth-child(3) {
@@ -296,6 +366,28 @@
 
           &__text {
             text-align: center;
+          }
+        }
+      }
+    }
+
+    &-contact {
+      margin: {
+        top: 50px;
+      }
+
+      &-container {
+        &-box {
+          &__text {
+            margin: {
+              top: 25px;
+            }
+          }
+
+          &-form {
+            margin: {
+              top: 25px;
+            }
           }
         }
       }
