@@ -252,6 +252,29 @@ a {
   max-width: 190px;
   margin: 0 auto;
 }
+.section-economic {
+  margin-top: 25px;
+  background-color: #ED4C5C;
+  padding-top: 95px;
+}
+.section-economic-container-box {
+  max-width: 445px;
+}
+.section-economic-container-box__title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+}
+.section-economic-container-box__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: justify;
+  margin-top: 35px;
+}
+.section-economic-container-box-icons__play, .section-economic-container-box-icons__alpha {
+  cursor: pointer;
+}
 
 @media only screen and (max-width: 1200px) {
   .section-budget {
@@ -280,6 +303,15 @@ a {
   }
   .section-technology-container-box:nth-child(4) {
     margin-top: 100px;
+  }
+  .section-economic-container-box {
+    margin: 0 auto;
+  }
+  .section-economic-container-box__title {
+    text-align: center;
+  }
+  .section-economic-container-box__text {
+    text-align: center;
   }
 }
 @media only screen and (max-width: 1140px) {

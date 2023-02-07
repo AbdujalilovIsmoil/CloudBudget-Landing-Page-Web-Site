@@ -177,6 +177,49 @@
       }
     }
   }
+
+  &-economic {
+    margin: {
+      top: 25px;
+    }
+
+    background-color: $economic-bg-color;
+
+    padding: {
+      top: 95px;
+    }
+
+    &-container {
+      &-box {
+        max-width: 445px;
+
+        &__title {
+          font-weight: 500;
+          font-size: 36px;
+          line-height: 42px;
+        }
+
+        &__text {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 140%;
+          text-align: justify;
+
+          margin: {
+            top: 35px;
+          }
+        }
+
+        &-icons {
+
+          &__play,
+          &__alpha {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -241,6 +284,22 @@
         }
       }
     }
+
+    &-economic {
+      &-container {
+        &-box {
+          margin: 0 auto;
+
+          &__title {
+            text-align: center;
+          }
+
+          &__text {
+            text-align: center;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -271,6 +330,7 @@
           top: 30px;
         }
       }
+
       padding: {
         bottom: 30px;
       }
@@ -282,7 +342,8 @@
               top: 0;
             }
           }
-          &:nth-child(4){
+
+          &:nth-child(4) {
             margin: {
               bottom: 0px;
             }
