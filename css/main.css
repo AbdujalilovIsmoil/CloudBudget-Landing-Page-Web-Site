@@ -399,4 +399,27 @@ a {
     font-size: 22px;
     line-height: 33px;
   }
+}
+.footer {
+  background-color: #FAFAFA;
+  padding-top: 45px;
+  padding-bottom: 50px;
+  margin-top: 140px;
+}
+.footer__title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+.footer__text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  max-width: 170px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .footer {
+    margin-top: 50px;
+  }
 }/*# sourceMappingURL=main.css.map */
