@@ -71,23 +71,24 @@ a {
 .navbars {
   background-image: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
   position: fixed;
+  width: 100%;
   transition: all 0.4s linear;
   -webkit-transition: all 0.4s linear;
   -moz-transition: all 0.4s linear;
   -ms-transition: all 0.4s linear;
   -o-transition: all 0.4s linear;
-  transform: translateX(-100%);
-  -webkit-transform: translateX(-100%);
-  -moz-transform: translateX(-100%);
-  -ms-transform: translateX(-100%);
-  -o-transform: translateX(-100%);
+  transform: translateY(-100%);
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
 }
 .navbars.active {
-  transform: translateX(0);
-  -webkit-transform: translateX(0);
-  -moz-transform: translateX(0);
-  -ms-transform: translateX(0);
-  -o-transform: translateX(0);
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
   transition: all 0.4s linear;
   -webkit-transition: all 0.4s linear;
   -moz-transition: all 0.4s linear;
