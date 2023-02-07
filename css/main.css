@@ -292,11 +292,18 @@ a {
   .section-technology {
     padding-bottom: 30px;
   }
+  .section-technology__title {
+    margin-top: 30px;
+  }
   .section-technology-container-box {
     margin-top: 135px;
+    margin-bottom: 75px;
   }
   .section-technology-container-box:nth-child(1) {
     margin-top: 0;
+  }
+  .section-technology-container-box:nth-child(4) {
+    margin-bottom: 0px;
   }
 }
 @media only screen and (max-width: 760px) {

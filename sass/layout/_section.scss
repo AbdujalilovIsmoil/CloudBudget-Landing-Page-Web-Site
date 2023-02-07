@@ -266,6 +266,11 @@
 @media only screen and (max-width: 767px) {
   .section {
     &-technology {
+      &__title {
+        margin: {
+          top: 30px;
+        }
+      }
       padding: {
         bottom: 30px;
       }
@@ -277,9 +282,15 @@
               top: 0;
             }
           }
+          &:nth-child(4){
+            margin: {
+              bottom: 0px;
+            }
+          }
 
           margin: {
             top: 135px;
+            bottom: 75px;
           }
         }
       }
