@@ -104,7 +104,7 @@ a {
   min-height: 100vh;
 }
 .navbars .wrapper .btn {
-  margin-left: 0;
+  margin-right: 5px;
 }
 .navbars .fa-times {
   position: absolute;

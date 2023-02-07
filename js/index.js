@@ -7,3 +7,9 @@ $(".fa-bars").addEventListener("click", () => {
 $(".fa-times").addEventListener("click", () => {
   $(".navbars").classList.remove("active");
 });
+
+$$(".navbars-list-item__link").forEach((el) => {
+  el.addEventListener("click", () => {
+    $(".navbars").classList.remove("active");
+  });
+});

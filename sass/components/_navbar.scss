@@ -13,11 +13,13 @@
   -moz-transform: translateY(-100%);
   -ms-transform: translateY(-100%);
   -o-transform: translateY(-100%);
+
   &-list {
     margin: {
       right: 40px;
     }
   }
+
   &.active {
     transform: translateY(0);
     -webkit-transform: translateY(0);
@@ -37,7 +39,7 @@
 
     .btn {
       margin: {
-        left: 0;
+        right: 5px;
       }
     }
   }
