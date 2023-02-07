@@ -68,6 +68,46 @@ a {
     max-width: 1440px !important;
   }
 }
+.navbars {
+  background-image: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
+  position: fixed;
+  transition: all 0.4s linear;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+}
+.navbars.active {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transition: all 0.4s linear;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+}
+.navbars .wrapper {
+  position: relative;
+  min-height: 100vh;
+}
+.navbars .wrapper .btn {
+  margin-left: 35px;
+}
+.navbars .fa-times {
+  position: absolute;
+  top: 55px;
+  right: 7%;
+  cursor: pointer;
+}
+
 .nav-intro__text {
   font-family: "Lato", sans-serif;
   font-size: 18px;
@@ -149,9 +189,8 @@ a {
   min-height: 700px;
 }
 
-.section:nth-child(3) {
+.section.section-3 {
   background-color: #FAFAFA;
-  padding-bottom: 50px;
 }
 .section:nth-child(4) {
   padding-bottom: 150px;
@@ -253,7 +292,7 @@ a {
   margin: 0 auto;
 }
 .section-economic {
-  margin-top: 25px;
+  margin-top: 175px;
   background-color: #ED4C5C;
   padding-top: 95px;
   padding-bottom: 95px;
@@ -321,7 +360,7 @@ a {
   }
 }
 @media only screen and (max-width: 1199px) {
-  .section:nth-child(3) {
+  .section.section-3 {
     padding-bottom: 0;
   }
   .section-budget-container {
@@ -340,7 +379,7 @@ a {
   .section-technology__title {
     margin-top: 50px;
   }
-  .section-technology-container-box:nth-child(3) {
+  .section-technology-container-box.section-3 {
     margin-top: 100px;
   }
   .section-technology-container-box:nth-child(4) {

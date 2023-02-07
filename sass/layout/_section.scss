@@ -8,12 +8,9 @@
 }
 
 .section {
-  &:nth-child(3) {
-    background-color: $section-card-bg-color;
 
-    padding: {
-      bottom: 50px;
-    }
+  &.section-3 {
+    background-color: $section-card-bg-color;
   }
 
   &:nth-child(4) {
@@ -180,7 +177,7 @@
 
   &-economic {
     margin: {
-      top: 25px;
+      top: 175px;
     }
 
     background-color: $economic-bg-color;
@@ -296,7 +293,7 @@
 
 @media only screen and (max-width: 1199px) {
   .section {
-    &:nth-child(3) {
+    &.section-3 {
       padding: {
         bottom: 0;
       }
@@ -339,7 +336,7 @@
 
       &-container {
         &-box {
-          &:nth-child(3) {
+          &.section-3 {
             margin: {
               top: 100px;
             }
